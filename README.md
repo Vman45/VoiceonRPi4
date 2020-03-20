@@ -17,7 +17,7 @@ Open PiAUISuite/VoiceCommand/speech-recog.sh <br>
 Change <b>"-f cd -t wav"</b> to <b>"-f S16_LE" on the second last line </b> <br>
 Open PiAUISuite/VoiceCommand/voicecommand.cpp <br>
 Change <b>"-f cd -t wav"</b> to <b>"-f S16_LE" on line 34 </b> <br>
-Open <b>PiAUISuite/VoiceCommand/tts</b> and replace the content with this code : https://github.com/StevenHickson/PiAUISuite/issues/56#issuecomment-205715002 <br>
+Open <b>PiAUISuite/VoiceCommand/tts</b> and replace the content with this code : https://github.com/StevenHickson/PiAUISuite/issues/56#issuecomment-205715002 (Note that this won't work until you Install Pico2Wave, instructions of which are given below) <br>
 Run <b>make voicecommand</b> <br>
 Go to PiAUISuite/Install and run the command <b>./InstallAUISuite.sh</b> 
 
