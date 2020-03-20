@@ -38,3 +38,5 @@ dpkg-buildpackage -rfakeroot -us -uc <br>
 cd ../ <br>
 ls *.deb <br>
 sudo dpkg -i *.deb <br>
+Now go on and check if it is working by using the <b>voicecommand</b> function <br>
+<h4>You have successfully implemented voice recognition on your Rpi4!</h4> <br>
